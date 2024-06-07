@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+    <linearGradient id="A_Default_authenticator" gradientUnits="userSpaceOnUse" x1="245.73"
+        y1="119.942" x2="289.113" y2="97.293">
+        <stop offset="0" stop-color="#0586fd"></stop>
+        <stop offset=".88" stop-color="#111fff"></stop>
+    </linearGradient>
+    <linearGradient id="A_White_authenticator" x1="-85.437" y1="31.4051" x2="-65.5116" y2="-50.4674"
+        gradientUnits="userSpaceOnUse">
+        <stop stop-color="#AEC1FE"></stop>
+        <stop offset="0.88" stop-color="#AEC1FE"></stop>
+    </linearGradient>
+    <path
+        d="M248.22 33.48c-6.31-14.4-18.64-6.84-25.98 3.2l-10.49 18.17 69.72 120.76H330L248.22 33.48z"
+        fill="url(#A_Default_authenticator)"></path>
+    <linearGradient id="B_Default_authenticator" gradientUnits="userSpaceOnUse" x1="8.26"
+        y1="181.678" x2="141.712" y2=".095">
+        <stop offset="0" stop-color="#0586fd"></stop>
+        <stop offset=".88" stop-color="#111fff"></stop>
+    </linearGradient>
+    <linearGradient id="B_White_authenticator" x1="-25.1168" y1="45.068" x2="-21.3786" y2="-12.5151"
+        gradientUnits="userSpaceOnUse">
+        <stop stop-color="#AFC2FF"></stop>
+        <stop offset="0.88" stop-color="#AFC2FF"></stop>
+    </linearGradient>
+    <path
+        d="M160.21 15.12C148.49.88 125.82-4.33 108.8 3.95c-8.2 3.77-15.04 9.71-19.81 17.93L.01 175.6h49.76l77.26-131.88 6.43-11.14c1.12-1.93 14.69-24.69 26.75-17.46z"
+        fill="url(#B_Default_authenticator)"></path>
+    <linearGradient id="C_Default_authenticator" gradientUnits="userSpaceOnUse" x1="111.515"
+        y1="171.343" x2="146.439" y2="144.666">
+        <stop offset="0" stop-color="#0586fd"></stop>
+        <stop offset=".88" stop-color="#111fff"></stop>
+    </linearGradient>
+    <linearGradient id="C_White_authenticator" x1="92" y1="4" x2="95.5874" y2="32"
+        gradientUnits="userSpaceOnUse">
+        <stop stop-color="#AEC1FE"></stop>
+        <stop offset="1" stop-color="#AEC1FE"></stop>
+    </linearGradient>
+    <path
+        d="M103.64 151.07c2.74 4.26 23.51 42.08 26.62 44.67 12.62 5.54 21.24-15.68 26.47-23.98l-32.21-55.79-20.88 35.1z"
+        fill="url(#C_Default_authenticator)"></path>
+    <linearGradient id="D_Default_authenticator" gradientUnits="userSpaceOnUse" x1="152.765"
+        y1="220.002" x2="223.483" y2="132.181">
+        <stop offset="0" stop-color="#0586fd"></stop>
+        <stop offset=".88" stop-color="#111fff"></stop>
+    </linearGradient>
+    <linearGradient id="D_White_authenticator" x1="99.5" y1="9" x2="94" y2="-7.5"
+        gradientUnits="userSpaceOnUse">
+        <stop stop-color="#B0C1FF"></stop>
+        <stop offset="0.708778" stop-color="#B0C1FF"></stop>
+    </linearGradient>
+    <path
+        d="M203.34 115.96l-36.53 63.27s-15.71 33.46-30.02 27.2c7.94 8.95 19.62 13.94 31.48 13.54 13.71-.59 26.31-8.02 33.31-20.14l25.44-44.06c-.3-.45-23.4-39.38-23.68-39.81z"
+        fill="url(#D_Default_authenticator)"></path>
+    <linearGradient id="E_Default_authenticator" gradientUnits="userSpaceOnUse" x1="148.127"
+        y1="97.596" x2="214.249" y2="-1.546">
+        <stop offset="0" stop-color="#0586fd"></stop>
+        <stop offset=".88" stop-color="#111fff"></stop>
+    </linearGradient>
+    <linearGradient id="E_White_authenticator" x1="10.5" y1="30.5" x2="12.0437" y2="-12.312"
+        gradientUnits="userSpaceOnUse">
+        <stop offset="0.0102326" stop-color="#AEC1FF"></stop>
+        <stop offset="0.88" stop-color="#AEC1FF"></stop>
+    </linearGradient>
+    <path
+        d="M235.39 14.3C222.61-.6 199.31-4.53 182.47 5.72c-15.93 7.97-31.84 46.85-41.62 60.97.22.36 24.26 42.04 24.47 42.37l38.41-66.52c6.21-9.9 16.67-35.44 31.73-28.17 0 0-.05-.05-.07-.07z"
+        fill="url(#E_Default_authenticator)"></path>
+    <linearGradient id="F_Default_authenticator" gradientUnits="userSpaceOnUse" x1="-259.807"
+        y1="234.249" x2="158.028" y2="42.61">
+        <stop offset="0" stop-color="#0586fd"></stop>
+        <stop offset=".88" stop-color="#111fff"></stop>
+    </linearGradient>
+    <linearGradient id="F_White_authenticator" x1="-1550.38" y1="107.976" x2="-1395.9" y2="-478.141"
+        gradientUnits="userSpaceOnUse">
+        <stop stop-color="#B0C1FF"></stop>
+        <stop offset="0.88" stop-color="#B0C1FF"></stop>
+    </linearGradient>
+    <path
+        d="M163.68 26.67c-8.93 14.25-16.98 31.56-22.83 40.02l-6.78-11.75c4.32-7.93 17.82-32.78 29.61-28.27z"
+        fill="url(#F_Default_authenticator)"></path>
+</svg>

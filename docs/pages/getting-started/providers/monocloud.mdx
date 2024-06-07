@@ -1,0 +1,78 @@
+import { Callout } from "nextra/components"
+import { Code } from "@/components/Code"
+
+<img align="right" src="/img/providers/monocloud.svg" height="64" width="64" />
+
+# MonoCloud Provider
+
+## Resources
+
+- [MonoCloud documentation](https://docs.monocloud.com/)
+
+## Setup
+
+### Callback URL
+
+<Code>
+  <Code.Next>
+
+```bash
+https://example.com/api/auth/callback/monocloud
+```
+
+  </Code.Next>
+  <Code.Svelte>
+
+```bash
+https://example.com/auth/callback/monocloud
+```
+
+  </Code.Svelte>
+</Code>
+
+### Environment Variables
+
+```
+AUTH_MONOCLOUD_ID
+AUTH_MONOCLOUD_ISSUER
+AUTH_MONOCLOUD_SECRET
+```
+
+### Configuration
+
+<Code>
+  <Code.Next>
+
+```ts filename="/auth.ts"
+import NextAuth from "next-auth"
+import MonoCloud from "next-auth/providers/monocloud"
+
+export const { handlers, auth, signIn, signOut } = NextAuth({
+  providers: [MonoCloud],
+})
+```
+
+  </Code.Next>
+  <Code.Svelte>
+
+```ts filename="/src/auth.ts"
+import { SvelteKitAuth } from "@auth/sveltekit"
+import MonoCloud from "@auth/sveltekit/providers/monocloud"
+
+export const { handle, signIn, signOut } = SvelteKitAuth({
+  providers: [MonoCloud],
+})
+```
+
+  </Code.Svelte>
+  <Code.Express>
+
+```ts filename="/src/app.ts"
+import { ExpressAuth } from "@auth/express"
+import MonoCloud from "@auth/express/providers/monocloud"
+
+app.use("/auth/*", ExpressAuth({ providers: [MonoCloud] }))
+```
+
+  </Code.Express>
+</Code>
